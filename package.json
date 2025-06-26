@@ -1,0 +1,29 @@
+{
+  "name": "vue-i18n-translation",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "lint": "eslint --ext .js,.vue --fix .",
+    "i18n": "tsx ./src/index.ts"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.16.1",
+    "@babel/generator": "^7.27.5",
+    "@babel/parser": "^7.27.5",
+    "@babel/traverse": "^7.27.4",
+    "@babel/types": "^7.27.6",
+    "@types/node": "^24.0.3",
+    "@vue/compiler-sfc": "^3.5.17",
+    "cli-progress": "^3.12.0",
+    "consola": "^3.4.2",
+    "eslint": "^9.29.0",
+    "eslint-plugin-format": "^1.0.1",
+    "glob": "^11.0.3",
+    "tsx": "^4.20.3",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vue-i18n-extract": "^2.0.7"
+  }
+}
