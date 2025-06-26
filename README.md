@@ -1,5 +1,7 @@
 # vue-i18n-translation
 
+[![code style](https://antfu.me/badge-code-style.svg)](https://github.com/antfu/eslint-config)
+
 `vue-i18n-translation` 是一款针对 Vue 项目中中文文本的 CLI 自动化工具，基于 [vue-i18n](https://github.com/intlify/vue-i18n)。
 
 实现上包含**提取**、**翻译**、**包裹**三部分：
@@ -40,7 +42,7 @@
 1. 克隆或下载项目：
 
    ```bash
-   git clone <仓库地址>
+   git clone https://github.com/kanocence/vue-i18n-translation.git
    ```
 
 2. 安装依赖：
