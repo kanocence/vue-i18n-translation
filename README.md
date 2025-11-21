@@ -164,3 +164,8 @@ interface WrapOptions {
    ```bash
    pnpm build
    ```
+
+## TODO
+
+1. 从翻译文本改为翻译 i18n.json 或 i18n.js 文件
+2. 引入智能体
